@@ -26,4 +26,46 @@ Install requried libraries
 pip install -r requirements.txt
 ```
 
+Add files to git
+```
+git add .
+```
+OR
+```
+git add <file_name>
+```
+> Note: To ignore file or folder from git, we can mention the file name or folder name in the .gitignore file
+
+To check the status
+```
+git status
+```
+
+To check the versions maintained by git
+```
+git log
+```
+
+To create version/commit all chnages by git
+```
+git commit -m "message"
+```
+
+To push changes to git
+```
+git push origin main
+```
+
+To check remote url
+```
+git remote -v
+```
+
+
+
+
+
+
+
+
 
