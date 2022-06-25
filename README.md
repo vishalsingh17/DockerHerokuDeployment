@@ -7,7 +7,7 @@
 4. [GIT cli](https://git-scm.com/downloads)
 5. [GIT Documentation](https://git-scm.com/docs/gittutorial)
 
-###Environment requirements
+### Environment requirements
 Creating conda environment
 ```
 conda create -p venv python=3.7 -y
@@ -27,7 +27,7 @@ Install requried libraries
 pip install -r requirements.txt
 ```
 
-###Git Commands
+### Git Commands
 Add files to git
 ```
 git add .
@@ -69,7 +69,7 @@ Details requiremed for creating CI/CD in heroku:-
 2. HEROKU_API_KEY - de81bd55-5937-4457-ba13-2fd64575b72c
 3. HEROKU_APP_NAME - ml-regression-app17
 
-###Docker Commands
+### Docker Commands
 ```
 docker build -t <image_name>:<tagname> .
 ```
