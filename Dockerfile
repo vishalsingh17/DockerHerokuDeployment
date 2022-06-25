@@ -16,3 +16,4 @@ EXPOSE $PORT
 # run the requried command
 CMD gunicorn --workers=4 --bind 0.0.0.0:$PORT app:app
 
+
