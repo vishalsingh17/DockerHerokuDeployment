@@ -70,14 +70,32 @@ Details requiremed for creating CI/CD in heroku:-
 3. HEROKU_APP_NAME - ml-regression-app17
 
 ### Docker Commands
+
+Build docker image
 ```
 docker build -t <image_name>:<tagname> .
 ```
 > Note: Image name must be in lower case.
 
+To list docker image
+```
+docker images
+```
 
+To run docker image
+```
+docker run -p 5000:5000 -e PORT=local_port_no <image_id>
+```
 
+To check running container in docker
+```
+docker ps
+```
 
+To stop docker conatiner
+```
+docker stop <container_id>
+```
 
 
 
